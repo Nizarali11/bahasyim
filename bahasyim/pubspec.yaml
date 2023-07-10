@@ -1,0 +1,82 @@
+name: bahasyim
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  flutter: 
+    sdk: flutter
+  google_fonts: ^4.0.3
+  flutter_native_splash: ^2.2.19
+  liquid_swipe: ^3.1.0
+  smooth_page_indicator: ^1.0.1
+  curved_navigation_bar: ^1.0.3
+  iconly: ^1.0.1
+  zoom_tap_animation: ^1.1.0
+  animated_bottom_navigation_bar: ^1.2.0
+  salomon_bottom_bar: ^3.3.2
+  go_router: ^6.5.7
+  dot_navigation_bar: ^1.0.1+4
+  flutter_staggered_animations: ^1.1.1
+  auto_route: ^7.4.0
+  animations: ^2.0.7
+  flutter_snake_navigationbar: ^0.6.1
+  convex_bottom_bar: ^3.2.0
+  fluid_bottom_nav_bar: ^1.4.0
+  horizontal_list: ^0.0.7
+  scroll_snap_list: ^0.9.1
+  snaplist: ^0.1.8
+  searchbar_animation: ^0.0.4
+  flutter_svg: ^1.0.0
+  flutter_launcher_icons: ^0.13.1
+
+
+
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icons.png"
+  min_sdk_android: 21
+
+
+
+
+
+
+
+
+flutter_native_splash:
+  color: "#f7f6f1"
+  image: assets/images/ppp.png
+  color_dark: "#272727"
+  image_dark: assets/images/ppp.png
+
+  android_12:
+    color: "#f6f7f1"
+    image: assets/images/ppp.png
+    color_dark: "#272727"
+    image_dark: assets/images/ppp.png
+
+
+flutter: 
+  uses-material-design: true
+  assets:
+  - assets/images/onebording/
+  - assets/images/bottomnav/
+  - assets/logo/
+  - assets/images/
+  - assets/images/didalamyasin/
+  - assets/images/darkmod/
+  - assets/images/didalamyasin/darkmode/
+  - assets/images/nikah/
+  - assets/images/nikah/darkmode/
+
